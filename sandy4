@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+ char z;
+ printf("Enter the letter want to test");
+ scanf("%s",&z);
+ if(z=='a'||z=='e'||z=='i'||z=='o'||z=='u'||z=='A'||z=='E'||z=='I'||z=='O'||z=='U')
+ {
+ printf("it is a vowel",z);
+ }
+ else
+ {
+ printf("it is a consonants",z);
+ }
+ return 0;
+ }
